@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>12th Bean</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Bootstrap-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header class="row">
+				<div class="col-md-3 col-xs-12 header-info">Phone: (555) 555 - 5555</div>
+				<div class="col-md-6 col-xs-12" id="social-media">
+					<a href="#" target="_blank"><img src="images/twitter-logo.svg" height="50px" width="50px"></a>
+					<a href="#" target="_blank"><img src="images/instagram-logo.svg" height="50px" width="50px"></a>
+					<a href="#" target="_blank"><img src="images/facebook-logo.svg" height="50px" width="50px"></a>
+				</div>
+				<div class="col-md-3 col-xs-12 header-info">Email: companyemail@example.com</div>
+			</header>
+			<div id="logo">
+				<img class="img-responsive" src="images/logo.png" height="100px" width="300px">
+			</div>
+			<nav class="nav navbar-default">
+				<div class="container-fluid">
+					<ul class="row">
+						<li class="col-md-2 col-xs-2"><a href="#Contact" id="contact-link">CONTACT</a></li>
+						<li class="col-md-8 col-xs-8"><a href="#Products" class="active" id="products-link">PRODUCTS</a></li>
+						<li class="col-md-2 col-xs-2"><a href="#Events" id="events-link">EVENTS</a></li>
+					</ul>
+				</div>
+			</nav>
+			<main id="products-main">
+				<div id="products">
+					<!-- <h1 class="text-center">Our Products</h1>   -->
+					<div class="product" id="glidr">
+						<i class="close">X</i>
+						<div class="content">
+							<a href="http://www.myglidr.com" target="_blank"><img style="margin-bottom: 30px;"  src="images/glidr.png" height="90px" width="250px"></a><br>
+							<button class="learnmore">LEARN MORE</button>
+							<p class="more">Glidr Blū is designed with a sleeker body that allows it to be even more interactive with your every 
+							move. We designed the Glidr Blū utilizing state-of-the-art gyroscopic technology and sensitive motion detectors. 
+							The fun and efficient self-balancing personal transporter provides the ultimate agility and control. 
+							You’ll turn, spin, glide at speeds up to 10 miles per hour and stop on a dime – as intuitive as walking after five 
+							minutes, the Glidr Blū provides hours of enjoyment and maximum muscle efficiency for users of all ages.</p>
+						</div>
+					</div>
+					<div class="product" id="dumbo">
+						<i class="close">X</i>
+						<div class="content">
+							<a href="https://www.dumboloungesacks.com/" target="_blank"><img src="images/dumbo.png" height="120px" width="250px"></a><br>
+							<button class="learnmore">LEARN MORE</button>
+							<p class="more"> 
+							Throughout our many adventure’s around the world, we’ve been on the search for the most comfortable lounger on the 
+							market. Through multiple prototypes we finally found the PERFECT design that not only created ultimate comfort,
+							but was so lightweight and durable that it’s convenient for ANYONE to bring on ANY adventure whether it was to the 
+							beach, lake, pool, festival, camping, or even hiking in the mountains. Due to it’s lightweight design and ability to 
+							inflate in seconds with no air pump, we were confident that everyone would LOVE it. The Dumbo Lounge Sack is not only 
+							the a good way to relax, it’s the BEST way to relax.</p>
+						</div>
+					</div>
+					<div class="product" id="selfiescases">
+						<i class="close">X</i>
+						<div class="content">
+							<a href="http://www.selfiescases.com" target="_blank"><img style="margin-bottom: 30px;" src="images/selfiescases.png" height="100px" width="250px"></a><br>
+							<button class="learnmore">LEARN MORE</button>
+							<p class="more">The #SelfiesCases is revolutionizing mobile devices!
+							More than just stylish protection for your phone,
+							but a dual-functioning case that brings
+							endless handsfree possibilities!</p>
+						</div>
+					</div>
+				</div>
+			</main>
+			<main id="contact-main">
+				<form>
+					<h1 style="margin-bottom: 50px;" class="text-center col-md-12">Send Us A Message</h1>
+					<p class="row"><label  class="col-md-4">Name:</label> <input placeholder="First name, last name" class="col-md-8" type="text" required></p>
+					<br>
+					<p class="row"><label class="col-md-4">Email:</label> <input placeholder="example@example.com" class="col-md-8" type="email" required></p>
+					<br>
+					<p class="row"><label class="col-md-4">Message:</label> <textarea placeholder="Type your message here" class="col-md-8" required></textarea></p>
+					<br>
+					<input id="submit-contact-form" class="btn btn-default" type="submit" value="submit">
+				</form>
+			</main>
+			<main id="events-main">
+				<div class="content">
+					<a href="http://www.senditcabo.com/home/" target="_blank"><img id="sendit-logo" class='img-responsive' src="images/sendit.png" width="200px" height="150px"></a>
+					<h3 class="text-center" style="font-weight:bold;background-color: rgba(0,0,0, .3);max-width:400px;margin: 0 auto;margin-top: 2%;">Welcome To The Best Weekend of Your Life</h3>
+					<div class=" text-center more">We are here to provide the most legendary Cabo Spring Break experience 
+					for college students. Our hotel packages consists of premium hotels right on the beach within walking distance 
+					from the nightlife. With seven nights in such prime locations, you'll be set for all the action. Beach clubs by 
+					day and the best clubs you've ever been to by night. Cabo Spring Break is an essential piece to a successful college 
+					experience career! What are you waiting for? Sendit!</div>
+					<a href="http://www.senditcabo.com/home/" target="_blank"><button id="trip">BOOK NOW</button></a>
+				</div>
+			</main>
+			<footer>
+				<p>&copy;2016 12th Bean. All Rights Reserved</p>
+				<div>Icons made by <a href="http://www.flaticon.com/authors/bogdan-rosu" title="Bogdan Rosu">Bogdan Rosu</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</footer>
+		</div>
+		
+		<!-- scripts -->
+		<script src="animations.js"></script>
+	</body>
+</html>

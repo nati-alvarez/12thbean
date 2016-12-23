@@ -1,0 +1,311 @@
+body {
+	background-color: #FFB82F !important;
+}
+
+.container-fluid {
+	
+}
+
+header {
+	background-color: #3f3f3f;
+	color: ivory;
+	margin: 0px -15px;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 2%;
+	color:  #FFB82F;
+	font-size: 1.5em;
+}
+
+.header-info {
+	text-align: center;
+}
+
+header a {
+	margin: 10px;
+}
+
+header img  {
+	margin: 10px 0px;
+}
+
+#logo {
+	margin: 0 auto;
+	width: contain;
+}
+
+#logo img {
+	margin: 0 auto;
+}
+
+nav {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3% !important;
+	background-color: transparent !important;
+}
+
+nav li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+nav a:link, nav a:hover, nav a:visited {
+	text-decoration: none;
+	color: #3f3f3f !important;
+}
+
+nav .active {
+	border-bottom: 3px solid #3f3f3f;
+	padding-bottom: 5px;
+	font-size: 2em;
+	box-shadow: 0px 10px 5px white;
+}
+
+nav .row {
+	padding: 0px;
+}
+
+main {
+	background-color: transparent;
+	border: 5px groove ivory;
+	border-radius: 10px;
+	background-color: ivory;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	width: 70%;
+}
+
+#products {
+	background-color: transparent;
+	padding: 2%;
+}
+
+.product {
+	height:  200px;
+	max-width: 600px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+#glidr {
+	background: url('images/glidr-bg.jpg') no-repeat center center fixed;
+}
+
+#dumbo {
+	background: url('images/dumbo-bg.png') no-repeat center center fixed;
+}
+
+#selfiescases {
+	background: url('images/selfiescases-bg.jpg') no-repeat center center fixed;
+}
+
+.product .content{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.learnmore {
+	background-color: #3f3f3f;
+	color: ivory;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+.more {
+	display: none;
+	margin: 0 auto;
+	margin-top: 5%;
+	border-radius: 10px;
+	padding: 5px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	width: 300px;
+}
+
+.product .close  {
+	position: relative;
+	top: 10px;
+	right: 10px;
+	color: white;
+	opacity: 1;
+	background-color: #3f3f3f;
+	padding: 8px;
+	border-radius: 5px;
+	display: none;
+	z-index: 2;
+}
+
+
+#contact-main {
+	height: auto;
+	display: none;
+}
+
+#contact-main form {
+}
+
+#contact-main form p{
+	margin: 0  auto;
+	max-width: 500px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#contact-main textarea, input{
+	vertical-align: middle;
+	margin: 0 auto;
+	border: none;
+	border-left: 2px solid #FFB82F;
+	border-bottom: 2px solid #FFB82F;
+	box-shadow: -5px 5px 10px #FFB82F;
+	background-color: white;
+}
+
+#submit-contact-form {
+	display: block !important;
+	margin: 0 auto !important;
+	background-color: #FFB82F;
+	color: #3F3F3F;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#events-main {
+	display:none;
+	background-image: url('images/senditcabo-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 10px;
+	-webkit-filter: grayscale(20%);
+	color: white !important;
+}
+
+#sendit-logo {
+	display: block;
+	margin: 0 auto;
+	-webkit-filter: sepia(0%);
+}
+
+#events-main .more {
+	display: block;
+}
+
+#events-main button {
+	display: block;
+	background-color: #3f3f3f;
+	color: ivory;
+	padding: 10px 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	background-color: #3f3f3f;
+	color: ivory;
+	margin: 0px -15px;
+	text-align: center;
+	padding: 10px;
+}
+footer p {
+	margin: 0px;
+}
+
+footer a {
+	color:  #FFB82F;
+}
+
+
+
+/* media queries */
+
+/* mobile phones portrait */
+@media (max-width: 414px) {
+	header {
+		font-size: 1em;
+	}
+	
+	main {
+		width: 100%;
+	}
+	
+	nav {
+		width: 100%;
+		margin: 10% 0px;
+		font-size: .9em;
+	}
+	
+	nav .active {
+		font-size: 1.5em;
+		padding: 0px !important;
+	}
+	
+	nav li {
+		padding: 0px !important;
+	}
+	
+	.more {
+		width: 100%;
+	}
+	
+	textarea {
+		height: 150px;
+	}
+
+
+}
+
+/* mobile phones landscape */
+@media (min-width: 480px) {
+	header {
+		font-size: 1em;
+	}
+	nav {
+		width: 80%;
+	}
+	
+	main {
+		width: 80%;
+	}
+}
+
+/* larger screens */
+
+@media (min-width: 1024px) {
+
+	#contact-main {
+		max-width: 600px;
+		padding: 100px 50px;
+	}
+
+	form {
+		max-width: 600px;
+		
+	}
+}
